@@ -1,8 +1,6 @@
-# Project name here
-> Summary description here.
+# STAN
+> Shipment type analytics. Automatically classify shipments in B2B, B2C, ...
 
-
-This file will become your README and also the index of your documentation.
 
 ## Install
 
@@ -10,15 +8,12 @@ This file will become your README and also the index of your documentation.
 
 ## How to use
 
-Fill me in please! Don't forget code examples:
+Just instantiate the Stan class and call predict with your data.
 
 ```python
-1+1
+stan = Stan()
+stan.predict({})
 ```
 
-
-
-
-    2
-
-
+    Class=B2B, confidence=98%
+    

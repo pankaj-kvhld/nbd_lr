@@ -2,11 +2,11 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"Stan": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
-doc_url = "https://pages.github.dhl.com./nbd_lr/nbd_lr/"
+doc_url = "https://pages.github.dhl.com/nbd_lr/nbd_lr/"
 
 git_url = "https://github.dhl.com/nbd_lr/nbd_lr/tree/master/"
 
